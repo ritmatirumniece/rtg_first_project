@@ -1,0 +1,157 @@
+body{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    border: red;
+    padding: auto;
+    background-color: lightblue;
+}
+
+.head-container{
+    width: 400px;
+    margin: auto;
+    text-align: justify;
+    border: 6px double rgb(29, 149, 224);
+    border-top: 1px rgb(28, 152, 230);
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 15px;
+      
+}
+
+.nosaukums {
+    font-size: 65px;
+    background-color: midnightblue;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+
+#foto{
+    height: 430px;
+    color: mediumblue;
+    background: url(https://kremi.lv/uploads/2020/07/IMG_5693-e1595258129537.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+      
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pazinojums{
+    text-align: center;
+    font-size: 45px;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.teksts{
+    text-align: justify;
+    font-size: 25px;
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.button-one{
+    background-color: mediumblue;
+    color: mintcream;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin: 500px 500px 500px 400px;
+}
+.button-two{
+    background-color: mediumblue;
+    color: mintcream;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 500px 500px 500px 3px;
+}
+
+.programmas-apraksts{
+    font-size: 25px;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: lightpink;
+}
+.question-container{
+    font-weight: 100;
+}
+
+.question {
+    font-weight: bold;
+    padding-bottom: 5px;
+
+}
+
+.answer {
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-heading {
+    font-size: 25px;
+    color: midnightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.quote-container {
+    font-size: 30px;
+    background-color: lightpink;
+    color: midnightblue;
+    font-family: cursive;
+    font-weight:normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;  
+}
+
+.footer {
+    font-size: 18px;
+    background-color: midnightblue;
+    color: mintcream;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;   
+}
